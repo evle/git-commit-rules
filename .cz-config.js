@@ -5,7 +5,7 @@ module.exports = {
   types: [
     {value: 'feat',     name: 'feat:     增加一个新的功能'},
     {value: 'bugfix',   name: 'bugfix:   修复非jira上的bug'},
-    {value: 'jira',     name: 'jira:     修复jira上的bug 必须填写bug的ID' },
+    {value: 'jira',     name: 'jira:     修复jira上的bug(携带ID) e.g #10010' },
     {value: 'docs',     name: 'docs:     变更文档'},
     {value: 'style',    name: 'style:    修复代码格式'},
     {value: 'refactor', name: 'refactor: 代码重构, 不影响功能'},
@@ -17,7 +17,7 @@ module.exports = {
 
   messages: {
     type: '选择本次提交类型:',
-    subject: '提交信息（请认真填写):\n',
+    subject: '提交信息（请认填写):\n',
     confirmCommit: '确认提交以上信息?',
     allowCustomScopes: false
   },
