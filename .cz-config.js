@@ -17,8 +17,9 @@ module.exports = {
 
   messages: {
     type: '选择本次提交类型:',
-    subject: '请认真书写提交内容:\n',
-    confirmCommit: '确认提交以上信息?'
+    subject: '提交信息（请认真填写):\n',
+    confirmCommit: '确认提交以上信息?',
+    allowCustomScopes: false
   },
 
   allowBreakingChanges: ['feat', 'fix'],
