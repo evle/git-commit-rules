@@ -1,0 +1,1 @@
+commitizen init cz-customizable --save --save-exact
