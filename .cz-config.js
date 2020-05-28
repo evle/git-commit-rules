@@ -13,8 +13,6 @@ module.exports = {
     {value: 'chore',    name: 'chore:    工具变更, 构建流程,插件等'}
   ],
 
-
-
   messages: {
     type: '选择本次提交类型:',
     subject: '提交信息（请认填写):\n',
