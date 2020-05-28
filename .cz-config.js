@@ -5,12 +5,12 @@ module.exports = {
   types: [
     {value: 'feat',     name: 'feat:     增加一个新的功能'},
     {value: 'bugfix',   name: 'bugfix:   修复非jira上的bug'},
-    {value: 'jira',   name: 'jira:   修复jira上的bug e.g: jira-[TrackingId]'},
+    {value: 'jira',     name: 'jira:     修复jira上的bug 必须填写bug的ID' },
     {value: 'docs',     name: 'docs:     变更文档'},
     {value: 'style',    name: 'style:    修复代码格式'},
     {value: 'refactor', name: 'refactor: 代码重构, 不影响功能'},
-    {value: 'misc',     name: 'misc:  杂项提交'},
-    {value: 'chore',    name: 'chore:   工具变更, 构建流程,插件等'}
+    {value: 'misc',     name: 'misc:     杂项提交'},
+    {value: 'chore',    name: 'chore:    工具变更, 构建流程,插件等'}
   ],
 
 
