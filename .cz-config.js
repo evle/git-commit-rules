@@ -5,7 +5,7 @@ module.exports = {
   types: [
     {value: 'feat',     name: 'feat:     增加一个新的功能'},
     {value: 'bugfix',   name: 'bugfix:   修复非jira上的bug'},
-    {value: 'jira',     name: 'jira:     修复jira上的bug(携带ID) e.g #10010' },
+    {value: 'jira',     name: 'jira:     修复jira上的bug(必须带Bug ID) 格式: #10010 修复了弹窗闪烁问题' },
     {value: 'docs',     name: 'docs:     变更文档'},
     {value: 'style',    name: 'style:    修复代码格式'},
     {value: 'refactor', name: 'refactor: 代码重构, 不影响功能'},
