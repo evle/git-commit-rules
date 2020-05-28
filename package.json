@@ -6,7 +6,6 @@
   "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
     "cz-customizable": "^6.2.0",
     "husky": "^4.2.5"
   },
